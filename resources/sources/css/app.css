@@ -1,0 +1,85 @@
+/* BODY */
+
+body {
+  font-family: -apple-system,"BlinkMacSystemFont","Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 0.8rem;
+}
+
+.page-wrapper .page-wrapper-inner {
+  background-color: #f2f5f7;
+  padding: 0 30px;
+}
+
+.page-content {
+  width: 100%;
+  position: relative;
+  min-height: calc(100vh - 70px);
+  padding: 0 10px 60px;
+  margin-top: 90px;
+}
+
+
+/* MENU */
+
+.left-sidenav {
+  margin-top: 90px;
+}
+
+.left-sidenav-menu li ul li > a {
+  padding: 5px 30px;
+  color: #676c79;
+  font-size: 13px;
+  border-left: none;
+}
+
+.left-sidenav-menu li.active > a {
+  color: #23222f;
+  border-left-color: #002b5e;;
+}
+
+.left-sidenav-menu li > a {
+  border-left: 10px solid transparent;
+}
+
+/* CARD */
+
+.topbar .topbar-left {
+  float: left;
+  width: 300px;
+  z-index: 1;
+}
+
+.topbar .topbar-left .logo .logo-lg {
+  height: 42px;
+  margin-left: 5px;
+}
+
+.slogan {
+  color: #ffcc00;
+  font-style: italic;
+}
+
+
+/* CARD */
+
+.card-header {
+  padding: 0rem 1.3rem;
+}
+
+.card-header h5 {
+  color: #6a9a27;
+}
+
+.header_add {
+  padding: 0.5rem 1.3rem;
+}
+
+.btn_add {
+  padding: 0.2rem 0.5rem;
+}
+
+/* TABEL */
+
+.table td, .table th {
+  padding: 0.3rem;
+}
